@@ -1,0 +1,17 @@
+body{
+	background: #EFF0F5;
+}
+header{
+	width: 100%;
+	z-index: 2;
+}
+input{
+	text-transform: uppercase;
+}
+textarea{
+	text-transform: uppercase;
+}
+#datos td{
+	padding: 0px 5px 0px 5px;
+	font-size: 13px;
+}
