@@ -5,25 +5,3 @@ header{
 	width: 100%;
 	z-index: 2;
 }
-input{
-	text-transform: uppercase;
-}
-textarea{
-	text-transform: uppercase;
-}
-#datos td{
-	padding: 0px 5px 0px 5px;
-	font-size: 13px;
-}
-
-/* Menu */
-.badge-item{
-	position: absolute;
-}
-
-@media (max-width: 420px){
-	.badge-item{
-		
-		position: inherit !important;
-	}
-}

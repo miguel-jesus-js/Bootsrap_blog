@@ -8,6 +8,7 @@
   <link rel="stylesheet" href={{ URL::asset("dist/css/tabler.min.css")}}>
   <link rel="stylesheet" href={{ URL::asset("dist/css/demo.min.css")}}>
   <link rel="stylesheet" href={{ URL::asset("iconfont/tabler-icons.min.css")}}>
+  <script src={{ URL::asset("dist/js/sweetalert2.all.min.js")}}></script>
 </head>
 <body>
 
@@ -78,5 +79,6 @@
     <script src={{ URL::asset("dist/js/jquery.min.js")}}></script>
     <script src={{ URL::asset("dist/js/tabler.min.js")}}></script>
     <script src={{ URL::asset("dist/js/demo.min.js")}}></script>
+    @yield('script')
 </body>
 </html>

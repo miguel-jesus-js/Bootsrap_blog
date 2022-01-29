@@ -9,5 +9,14 @@ class Usuarios_blog extends Model
 {
     use HasFactory;
     protected $table = 'usuarios_blog';
-    protected $filllable = ['nombre', 'app', 'apm', 'sexo', 'nombre_user', 'correo', 'contrasena', 'foto_perfil'];
+    protected $fillable = [
+        'nombre',
+        'app',
+        'apm',
+        'sexo',
+        'nombre_user',
+        'correo',
+        'contrasena',
+        'foto_perfil'
+    ];
 }
