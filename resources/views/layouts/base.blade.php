@@ -54,6 +54,13 @@
                       </span>
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ route('usuarios.create') }}">
+                      <span class="nav-link-title">
+                        Crear usuarios
+                      </span>
+                    </a>
+                  </li>
                   <li class="nav-item {{ (request()->is('messages')) ? 'active' : '' }}">
                     <a class="nav-link" href="{{ url('messages') }}">
                       <span class="nav-link-title">

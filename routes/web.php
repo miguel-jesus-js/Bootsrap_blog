@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Usuarios_blog_Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +36,4 @@ Route::get('/messages', function () {
 Route::get('/my_post', function () {
     return view('my_post');
 });
+Route::resource('usuarios', Usuarios_blog_Controller::class);
