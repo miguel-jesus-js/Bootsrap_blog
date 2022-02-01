@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/index', function () {
+    return view('./publico/inicio');
+});
+
 Route::get('/create_post', function () {
     return view('create_post');
 });
